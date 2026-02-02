@@ -42,3 +42,8 @@ variable "home_ext_ip" {
   description = "CIDR block for home real IP"
   type        = string
 }
+
+variable "dev_ip" {
+  description = "CIDR block for dev real IP"
+  type        = string
+}
